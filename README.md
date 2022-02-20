@@ -1,15 +1,10 @@
-Pull project from git
-Install node 17.5.0
-run npm install -g jest
+## Requirements
+- Node.js version 17.5
 
-Dependencies:
-- yarn
+## Installation:
+- Install node.js version 17.5
+- Download the code as a zip or clone via git
+- At the root level, run `npm install`
+- Following this run `npm install -g jest`
+- Run jest in a terminal e.g. command prompt 
 
-npm install --save-dev jest
-
-Install babel with following command:
-yarn add --dev babel-jest @babel/core @babel/preset-env
-
-
-Typescript with babel for jest:
-yarn add --dev @babel/preset-typescript
